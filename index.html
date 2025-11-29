@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Dev - Ali Hurtado</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              // Paleta Dark Tech
+              'dark-bg': '#0f172a',      // Slate-900 (Fondo principal)
+              'dark-card': '#1e293b',    // Slate-800 (Tarjetas)
+              'dark-hover': '#334155',   // Slate-700 (Hover)
+              'tech-accent': '#3b82f6',  // Blue-500 (Acento principal)
+              'tech-cyan': '#06b6d4',    // Cyan-500 (Detalles secundarios)
+              'text-primary': '#f1f5f9', // Slate-100 (Texto principal)
+              'text-secondary': '#94a3b8' // Slate-400 (Texto secundario)
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-dark-bg text-text-primary min-h-screen p-4 md:p-8 font-sans antialiased">
+
+    <main id="portfolio-container" class="max-w-7xl mx-auto lg:flex lg:gap-8 lg:mt-10">
+
+        <section id="sidebar" class="lg:w-1/3 bg-dark-card p-6 rounded-2xl border border-slate-700 shadow-2xl mb-8 lg:mb-0">
+            </section>
+
+        <section id="content-area" class="lg:w-2/3">
+            <nav id="tabs-container" class="flex flex-wrap gap-3 mb-6 p-2 bg-dark-card rounded-xl border border-slate-700 shadow-lg justify-center lg:justify-start">
+                </nav>
+
+            <div id="dynamic-content" class="bg-dark-card p-6 rounded-2xl border border-slate-700 shadow-2xl min-h-[400px]">
+                </div>
+        </section>
+
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
