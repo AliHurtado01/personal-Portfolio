@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="grid gap-6">`;
 
       items.forEach((item) => {
-        // Tarjetas individuales con fondo oscuro
+        // Tarjetas individuales
         contentHTML += `
                     <div class="group relative bg-dark-bg p-5 rounded-xl border border-slate-700 hover:border-tech-accent transition duration-300">
                         <div class="flex flex-col md:flex-row justify-between items-start mb-2">
