@@ -9,7 +9,7 @@ const misDatos = {
   ubicacion: "La Palma, España",
   linkedin: "ali-hurtado-a5a32a1b7",
   github: "AliHurtado01",
-  cvUrl: "enlace/a/tu/cv.pdf",
+  cvUrl: "./docs/cv.pdf",
 
   // Acerca de Mí
   acercaDe: `
