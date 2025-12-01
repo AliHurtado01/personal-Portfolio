@@ -72,6 +72,7 @@ const misDatos = {
       url: "https://github.com/AliHurtado01/CriptoConverter",
       descripcion:
         "Proyecto basado en JS, usando APIS para recibir precios de criptomonedas y poder tener una especie de calculadora sobre los datos de conversión con las criptomonedas más famosas.",
+      periodo: "2025",
     },
     {
       nombre: "Proyecto LDN",
@@ -79,6 +80,7 @@ const misDatos = {
       url: "https://github.com/AliHurtado01/ProyectoFinalLDN",
       descripcion:
         "Página sobre todos los juegos de Zelda, así como su historia y personaje. Realizada como proyecto del primer año de DAW usando HTML y CSS.",
+      periodo: "2023",
     },
     {
       nombre: "Portfolio Personal",
@@ -86,6 +88,7 @@ const misDatos = {
       url: "https://github.com/AliHurtado01/personal-Portfolio",
       descripcion:
         "Creación de mi portfolio personal como parte del proyecto de 2DAW, utilizando por primera vez tecnologías de Tailwind.",
+      periodo: "2025",
     },
   ],
 };
