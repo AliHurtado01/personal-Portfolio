@@ -63,7 +63,7 @@ const misDatos = {
       tecnologias: "PHP",
       url: "https://github.com/AliHurtado01/BibliotecaOnline",
       descripcion:
-        "Es una biblioteca online de videojuegos donde puedes añadir, eliminar, votar y consultar juegos añadidos por tí como parte del segundo año de DAW.",
+        "Es una biblioteca online de videojuegos donde puedes añadir, eliminar, votar y consultar juegos añadidos por tí usando AJAX y comunicación con la base de datos, como parte del segundo año de DAW.",
       periodo: "2025",
     },
     {

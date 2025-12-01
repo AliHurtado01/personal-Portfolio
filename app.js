@@ -81,9 +81,8 @@ document.addEventListener("DOMContentLoaded", () => {
         return `
             <button
                 data-tab="${tab.key}"
-                class="tab-btn py-2 px-5 rounded-lg font-medium transition-all duration-300 text-sm md:text-base ${
-                  isActive ? activeClass : inactiveClass
-                }"
+                class="tab-btn py-2 px-5 rounded-lg font-medium transition-all duration-300 text-sm md:text-base ${isActive ? activeClass : inactiveClass
+          }"
             >
                 ${tab.label}
             </button>
@@ -144,11 +143,10 @@ document.addEventListener("DOMContentLoaded", () => {
                                     ${item.titulo || item.puesto || item.nombre}
                                 </h3>
                                 <p class="text-tech-accent font-medium text-sm mt-1">
-                                    ${
-                                      item.institucion ||
-                                      item.empresa ||
-                                      item.tecnologias
-                                    }
+                                    ${item.institucion ||
+          item.empresa ||
+          item.tecnologias
+          }
                                 </p>
                             </div>
                             <span class="text-xs font-mono text-slate-500 bg-slate-800 px-2 py-1 rounded mt-2 md:mt-0 border border-slate-700">
@@ -160,17 +158,16 @@ document.addEventListener("DOMContentLoaded", () => {
                             ${item.descripcion}
                         </p>
 
-                        ${
-                          item.url
-                            ? `
+                        ${item.url
+            ? `
                             <div class="mt-4 pt-4 border-t border-slate-800 flex justify-end">
                                 <a href="${item.url}" target="_blank" class="text-sm flex items-center text-white hover:text-tech-cyan transition">
                                     Ver Repositorio <span class="ml-2">→</span>
                                 </a>
                             </div>
                         `
-                            : ""
-                        }
+            : ""
+          }
                     </div>
                 `;
       });
