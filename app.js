@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     sidebar.innerHTML = `
             <div class="flex flex-col items-center">
                 <div class="w-32 h-32 p-1 rounded-full mb-4 bg-gradient-to-tr from-tech-cyan to-tech-accent">
-                    <img src="/docs/photo.jpeg" alt="${nombre}" class="w-full h-full object-cover rounded-full border-4 border-dark-card bg-slate-600">
+                    <img src="./docs/photo.jpeg" alt="${nombre}" class="w-full h-full object-cover rounded-full border-4 border-dark-card bg-slate-600">
                 </div>
                 
                 <h1 class="text-3xl font-bold text-white tracking-tight">${nombre}</h1>
