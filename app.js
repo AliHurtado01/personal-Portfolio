@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // LÓGICA DEL MENÚ DESPLEGABLE
     langButton.addEventListener('click', (e) => {
-        e.stopPropagation(); 
+        e.stopPropagation();
         langMenu.classList.toggle('hidden');
     });
 
@@ -33,9 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.changeLanguage = function (lang) {
         currentLang = lang;
-        localStorage.setItem('portfolioLang', lang); 
-        document.documentElement.lang = lang; 
-        
+        localStorage.setItem('portfolioLang', lang);
+        document.documentElement.lang = lang;
+
         // Inyectamos el HTML de la imagen en lugar de texto plano
         if (currentLangDisplay) {
             currentLangDisplay.innerHTML = uiTexts[lang].flagHtml;
@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 1. Renderizar Sidebar
     function renderSidebar() {
-        const data = misDatos[currentLang]; 
-        const ui = uiTexts[currentLang];   
+        const data = misDatos[currentLang];
+        const ui = uiTexts[currentLang];
 
         sidebar.innerHTML = `
             <div class="flex flex-col items-center">
@@ -83,11 +83,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
 
                 <div class="flex justify-center gap-4 py-4">
-                    <a href="https://linkedin.com/in/${data.linkedin}" target="_blank" class="p-2 rounded-lg bg-slate-700 text-gray-400 hover:bg-tech-accent hover:text-white transition shadow-lg">
-                       LinkedIn
+                    <a href="https://linkedin.com/in/${data.linkedin}" target="_blank" class="p-2 rounded-lg bg-slate-700 text-gray-400 hover:bg-tech-accent hover:text-white transition shadow-lg"> LinkedIn
                     </a>
-                    <a href="https://github.com/${data.github}" target="_blank" class="p-2 rounded-lg bg-slate-700 text-gray-400 hover:bg-tech-cyan hover:text-white transition shadow-lg">
-                       GitHub
+                    <a href="https://github.com/${data.github}" target="_blank" class="p-2 rounded-lg bg-slate-700 text-gray-400 hover:bg-tech-cyan hover:text-white transition shadow-lg"> GitHub
                     </a>
                 </div>
             </div>
@@ -101,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 2. Configuración de Pestañas
     function renderTabs() {
         const labels = misDatos[currentLang].tabsLabels;
-        
+
         const tabsConfig = [
             { key: "acercaDe", label: labels.acercaDe },
             { key: "experienciaLaboral", label: labels.experienciaLaboral },
@@ -160,10 +158,10 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             const items = data[key];
             let sectionTitle = labels[key];
-            
-            if(key === "experienciaLaboral") sectionTitle = sectionTitle.replace('🚀 ', '');
-            if(key === "estudios") sectionTitle = sectionTitle.replace('🎓 ', '');
-            if(key === "proyectos") sectionTitle = sectionTitle.replace('💻 ', '');
+
+            if (key === "experienciaLaboral") sectionTitle = sectionTitle.replace('🚀 ', '');
+            if (key === "estudios") sectionTitle = sectionTitle.replace('🎓 ', '');
+            if (key === "proyectos") sectionTitle = sectionTitle.replace('💻 ', '');
 
             contentHTML = `
                 <h2 class="text-2xl font-bold text-white mb-6 flex items-center">
@@ -194,15 +192,15 @@ document.addEventListener("DOMContentLoaded", () => {
                         </p>
 
                         ${item.url
-                    ? `
+                        ? `
                             <div class="mt-4 pt-4 border-t border-slate-800 flex justify-end">
                                 <a href="${item.url}" target="_blank" class="text-sm flex items-center text-white hover:text-tech-cyan transition">
                                     ${ui.repoBtn} <span class="ml-2">→</span>
                                 </a>
                             </div>
                         `
-                    : ""
-                }
+                        : ""
+                    }
                     </div>
                 `;
             });
