@@ -21,12 +21,11 @@ const misDatos = {
       proyectos: "💻 Proyectos"
     },
 
-    acercaDe: `
-    Soy un desarrollador Web en formación constante. He adquirido una base sólida en desarrollo de aplicaciones web, destacando en la creación de <b>interfaces responsivas y dinámicas</b>. 
+    acercaDe: `Soy un desarrollador web apasionado con la tecnología desde muy pequeño, formándome en las últimas tecnologías y metodologías de desarrollo constantemente. He adquirido una sólida base en el desarrollo de aplicaciones web, destacando en la creación de <b>interfaces responsivas y dinámicas</b>, además de contar con experiencia en el desarrollo de sistemas de automatización y chat bots para mejorar la atención al cliente. También tengo experiencia en el desarrollo de aplicaciones móviles utilizando <b>Flutter y Dart</b>, con integración de APIs. Así como en la creación de proyectos completos, desde el diseño hasta el despliegue, utilizando tecnologías como <b>Laravel, PHP, JavaScript, Java, HTML, CSS y MySQL</b>.
     <br><br>
-    Lo que me diferencia es mi perfil híbrido: cuento además con un <b>vasto conocimiento en sistemas informáticos y redes</b>, con capacidad para desplegar y administrar entornos físicos y virtuales.
+    Lo que me diferencia es mi perfil híbrido: cuento además con un <b>vasto conocimiento en sistemas informáticos y redes</b>, con capacidad para desplegar y administrar entornos físicos y virtuales participando de manera activa en la resolución de cualquier tipo de problema que pueda surgir.
     <br><br>
-    Me considero una persona <b>proactiva</b>: si no sé cómo hacer algo, investigo hasta solucionarlo, comprometiéndome al 100% con el objetivo del proyecto.
+    Me considero una persona <b>proactiva</b>: si no sé cómo hacer algo, investigo hasta solucionarlo, comprometiéndome al 100% con el objetivo del proyecto. Cuento con un nivel certificado de <b>inglés B1</b> además de mi idioma nativo, el español. 
     `,
 
     estudios: [
@@ -131,13 +130,11 @@ const misDatos = {
       proyectos: "💻 Projects"
     },
 
-    acercaDe: `
-    I am a Web Developer in constant training. I have acquired a solid foundation in web application development, standing out in the creation of <b>responsive and dynamic interfaces</b>. 
+    acercaDe: `I am a web developer passionate about technology since I was very young, constantly training in the latest technologies and development methodologies. I have acquired a solid foundation in web application development, standing out in the creation of <b>responsive and dynamic interfaces</b>, in addition to having experience in the development of automation systems and chatbots to improve customer service. I also have experience in mobile application development using <b>Flutter and Dart</b>, with API integration. As well as in the creation of complete projects, from design to deployment, using technologies such as <b>Laravel, PHP, JavaScript, Java, HTML, CSS, and MySQL</b>.
     <br><br>
-    What sets me apart is my hybrid profile: I also have <b>vast knowledge in computer systems and networks</b>, with the ability to deploy and manage physical and virtual environments.
+    What sets me apart is my hybrid profile: I also have <b>vast knowledge in computer systems and networks</b>, with the ability to deploy and manage physical and virtual environments, actively participating in the resolution of any type of problem that may arise.
     <br><br>
-    I consider myself a <b>proactive</b> person: if I don't know how to do something, I research until I solve it, committing 100% to the project's goal.
-    `,
+    I consider myself a <b>proactive</b> person: if I don't know how to do something, I research until I solve it, committing 100% to the project's goal. I have a certified <b>B1 level in English</b> in addition to my native language, Spanish.`,
 
     estudios: [
       {
@@ -241,13 +238,11 @@ const misDatos = {
       proyectos: "💻 Projets"
     },
 
-    acercaDe: `
-    Je suis un développeur Web en formation constante. J'ai acquis une base solide dans le développement d'applications web, me démarquant dans la création d'<b>interfaces réactives et dynamiques</b>. 
+    acercaDe: `Je suis un développeur web passionné par la technologie depuis mon plus jeune âge, me formant constamment aux dernières technologies et méthodologies de développement. J'ai acquis une base solide dans le développement d'applications web, me démarquant dans la création d'<b>interfaces réactives et dynamiques</b>, en plus d'avoir de l'expérience dans le développement de systèmes d'automatisation et de chatbots pour améliorer le service client. J'ai également de l'expérience dans le développement d'applications mobiles utilisant <b>Flutter et Dart</b>, avec l'intégration d'API. Ainsi que dans la création de projets complets, de la conception au déploiement, en utilisant des technologies telles que <b>Laravel, PHP, JavaScript, Java, HTML, CSS et MySQL</b>.
     <br><br>
-    Ce qui me différencie, c'est mon profil hybride : je possède également de <b>vastes connaissances en systèmes informatiques et réseaux</b>, avec la capacité de déployer et de gérer des environnements physiques et virtuels.
+    Ce qui me différencie, c'est mon profil hybride : je possède également de <b>vastes connaissances en systèmes informatiques et réseaux</b>, avec la capacité de déployer et d'administrer des environnements physiques et virtuels en participant activement à la résolution de tout type de problème pouvant survenir.
     <br><br>
-    Je me considère comme une personne <b>proactive</b> : si je ne sais pas comment faire quelque chose, je fais des recherches jusqu'à ce que je trouve la solution, en m'engageant à 100 % dans l'objectif du projet.
-    `,
+    Je me considère comme une personne <b>proactive</b> : si je ne sais pas comment faire quelque chose, je fais des recherches jusqu'à ce que je trouve la solution, en m'engageant à 100 % dans l'objectif du projet. Je possède un niveau certifié d'<b>anglais B1</b> en plus de ma langue maternelle, l'espagnol.`,
 
     estudios: [
       {
@@ -351,13 +346,11 @@ const misDatos = {
       proyectos: "💻 Projekte"
     },
 
-    acercaDe: `
-    Ich bin ein Webentwickler in ständiger Weiterbildung. Ich habe mir eine solide Grundlage in der Entwicklung von Webanwendungen angeeignet und zeichne mich durch die Erstellung von <b>responsiven und dynamischen Schnittstellen</b> aus. 
+    acercaDe: `Ich bin ein Webentwickler, der sich seit seiner Kindheit für Technologie begeistert und sich ständig in den neuesten Technologien und Entwicklungsmethoden weiterbildet. Ich habe mir eine solide Grundlage in der Entwicklung von Webanwendungen angeeignet und zeichne mich durch die Erstellung von <b>responsiven und dynamischen Schnittstellen</b> aus. Darüber hinaus verfüge ich über Erfahrung in der Entwicklung von Automatisierungssystemen und Chatbots zur Verbesserung des Kundenservice. Ich habe auch Erfahrung in der Entwicklung mobiler Anwendungen mit <b>Flutter und Dart</b> und der Integration von APIs. Ebenso in der Erstellung kompletter Projekte, vom Design bis zur Bereitstellung, unter Verwendung von Technologien wie <b>Laravel, PHP, JavaScript, Java, HTML, CSS und MySQL</b>.
     <br><br>
-    Was mich unterscheidet, ist mein hybrides Profil: Ich verfüge außerdem über <b>umfangreiche Kenntnisse in Computersystemen und Netzwerken</b> und kann physische und virtuelle Umgebungen bereitstellen und verwalten.
+    Was mich unterscheidet, ist mein hybrides Profil: Ich verfüge außerdem über <b>umfangreiche Kenntnisse in Computersystemen und Netzwerken</b> und kann physische und virtuelle Umgebungen bereitstellen und verwalten, wobei ich mich aktiv an der Lösung aller auftretenden Probleme beteilige.
     <br><br>
-    Ich betrachte mich als eine <b>proaktive</b> Person: Wenn ich nicht weiß, wie man etwas macht, recherchiere ich, bis ich es löse, und engagiere mich zu 100 % für das Projektziel.
-    `,
+    Ich betrachte mich als eine <b>proaktive</b> Person: Wenn ich nicht weiß, wie man etwas macht, recherchiere ich, bis ich es löse, und engagiere mich zu 100 % für das Projektziel. Neben meiner Muttersprache Spanisch verfüge ich über ein zertifiziertes <b>B1-Niveau in Englisch</b>.`,
 
     estudios: [
       {
