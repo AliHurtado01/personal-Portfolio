@@ -1,5 +1,3 @@
-// data.js
-
 const misDatos = {
   // ==========================================
   // ESPAÑOL (Idioma por defecto)
@@ -18,6 +16,7 @@ const misDatos = {
       acercaDe: "👨‍💻 Sobre mí",
       experienciaLaboral: "🚀 Experiencia",
       estudios: "🎓 Estudios",
+      habilidades: "⚡ Habilidades",
       proyectos: "💻 Proyectos"
     },
 
@@ -25,7 +24,7 @@ const misDatos = {
     <br><br>
     Lo que me diferencia es mi perfil híbrido: cuento además con un <b>vasto conocimiento en sistemas informáticos y redes</b>, con capacidad para desplegar y administrar entornos físicos y virtuales participando de manera activa en la resolución de cualquier tipo de problema que pueda surgir.
     <br><br>
-    Me considero una persona <b>proactiva</b>: si no sé cómo hacer algo, investigo hasta solucionarlo, comprometiéndome al 100% con el objetivo del proyecto. Cuento con un nivel certificado de <b>inglés B1</b> además de mi idioma nativo, el español. 
+    Me considero una persona <b>proactiva</b>: si no sé cómo hacer algo, investigo hasta solucionarlo, comprometiéndome al 100% con el objetivo del proyecto. Cuento con un <b>nivel certificado de inglés B2</b> además de mi idioma nativo, el español. 
     `,
 
     estudios: [
@@ -33,34 +32,51 @@ const misDatos = {
         titulo: "Técnico Superior en Desarrollo de Aplicaciones Web",
         institucion: "I.E.S. José María Pérez Pulido",
         periodo: "2023 - 2026",
-        descripcion: "Especialización en entornos cliente (JS, React) y servidor (Node.js, PHP, MySQL). Énfasis en metodologías ágiles y bases de datos relacionales.",
+        descripcion: "Formación exhaustiva en el desarrollo, implantación y mantenimiento de aplicaciones web. Aprendizaje de <b>programación orientada a objetos con Java</b> y diseño de bases de datos relacionales (<b>MySQL</b>). Dominio del desarrollo frontend creando interfaces modernas con <b>HTML, CSS, JavaScript y frameworks como Vue, React, Bootstrap y Tailwind CSS</b>. En el backend, desarrollo de APIs y lógica de servidor robusta mediante <b>PHP y Laravel</b>. Experiencia en despliegue de aplicaciones y uso de metodologías ágiles.",
       },
       {
         titulo: "Técnico medio en Sistemas Microinformáticos y Redes",
         institucion: "I.E.S. Villa de Mazo",
         periodo: "2020 - 2022",
-        descripcion: "Formación en instalación, configuración y mantenimiento de sistemas informáticos y redes. Conocimientos básicos de programación y administración de sistemas.",
+        descripcion: "Formación técnica especializada en la instalación, configuración y mantenimiento de sistemas microinformáticos, aislados o en red. Adquisición de competencias en administración de <b>sistemas operativos (Windows y Linux)</b>, gestión de <b>redes locales</b>, montaje de hardware y diagnóstico de fallos. Implementación de protocolos de <b>seguridad informática</b> y configuración de servicios de red, estableciendo una base sólida para la resolución de incidencias en infraestructuras IT.",
       },
+    ],
+
+    habilidades: [
+      {
+        categoria: "Frontend",
+        items: "HTML5, CSS3, JavaScript (ES6+), React, Vue.js, Tailwind CSS, Bootstrap"
+      },
+      {
+        categoria: "Backend & Base de Datos",
+        items: "PHP, Laravel, Java, MySQL, API REST"
+      },
+      {
+        categoria: "Desarrollo Móvil",
+        items: "Flutter, Dart, Riverpod"
+      },
+      {
+        categoria: "Sistemas y Herramientas",
+        items: "Linux, Redes LAN/WAN, Git/GitHub, Firebase, N8N (Automatización)"
+      },
+      {
+        categoria: "Idiomas",
+        items: `<img src="https://flagcdn.com/w20/es.png" alt="ES" class="inline-block w-5 h-auto mr-1 -mt-1 rounded-sm"> Español (Nativo) <span class="mx-2 text-slate-600">|</span> <img src="https://flagcdn.com/w20/us.png" alt="US" class="inline-block w-5 h-auto mr-1 -mt-1 rounded-sm"> Inglés (B2 Certificado)`
+      }
     ],
 
     experienciaLaboral: [
       {
-        puesto: "Camarero",
-        empresa: "Restaurante Mi Rincón - España",
-        periodo: "Junio 2019 - Septiembre 2022",
-        descripcion: "Atención al cliente, toma de pedidos y servicio en sala. Desarrollo de habilidades interpersonales y trabajo en equipo en un entorno dinámico.",
-      },
-      {
         puesto: "Becario de Desarrollo Web",
         empresa: "Fiordland Travels - España",
         periodo: "Marzo 2024 - Junio 2024",
-        descripcion: "Apoyo en la creación de sistemas de automatización con N8N y chat bots para mejorar la atención al cliente.",
+        descripcion: "Desarrollo y mantenimiento de sistemas de automatización utilizando N8N, integrando chatbots conversacionales que optimizaron los tiempos de respuesta. Colaboración estrecha con el equipo para identificar cuellos de botella y aplicar soluciones tecnológicas que mejoraron significativamente la experiencia y la atención al cliente final.",
       },
       {
-        puesto: "Becario de Desarrollo Web",
+        puesto: "Becario de Desarrollo Móvil",
         empresa: "Bucares S.A - Francia",
         periodo: "Febrero 2026 - Junio 2026",
-        descripcion: "Desarrollo de una aplicación móvil usando Flutter y Dart, llamada de APIs de geolocalización y mapas para mostrar puntos de interés, utilizando Firebase y desplegandola en tiendas de aplicaciones.",
+        descripcion: "Desarrollo integral de la aplicación móvil 'Dealheure' (multiplataforma iOS y Android) desde cero utilizando el framework Flutter y Dart, aplicando Riverpod para la gestión del estado. Implementación de funciones avanzadas de geolocalización, manejo de permisos de ubicación y Google Maps mediante consumo de APIs para mostrar puntos de interés. Gestión del backend y base de datos con Firebase, finalizando con el empaquetado y despliegue exitoso en las tiendas de aplicaciones oficiales.",
       },
     ],
 
@@ -121,12 +137,13 @@ const misDatos = {
     ubicacion: "La Palma, Spain",
     linkedin: "ali-hurtado-a5a32a1b7",
     github: "AliHurtado01",
-    cvUrl: "./docs/cv.pdf",
+    cvUrl: "./docs/CV Ali Hurtado English.pdf",
 
     tabsLabels: {
       acercaDe: "👨‍💻 About me",
       experienciaLaboral: "🚀 Experience",
       estudios: "🎓 Education",
+      habilidades: "⚡ Skills",
       proyectos: "💻 Projects"
     },
 
@@ -134,41 +151,58 @@ const misDatos = {
     <br><br>
     What sets me apart is my hybrid profile: I also have <b>vast knowledge in computer systems and networks</b>, with the ability to deploy and manage physical and virtual environments, actively participating in the resolution of any type of problem that may arise.
     <br><br>
-    I consider myself a <b>proactive</b> person: if I don't know how to do something, I research until I solve it, committing 100% to the project's goal. I have a certified <b>B1 level in English</b> in addition to my native language, Spanish.`,
+    I consider myself a <b>proactive</b> person: if I don't know how to do something, I research until I solve it, committing 100% to the project's goal. I have a <b>certified B2 level in English</b> in addition to my native language, Spanish.`,
 
     estudios: [
       {
         titulo: "Higher Technician in Web Application Development",
         institucion: "I.E.S. José María Pérez Pulido",
         periodo: "2023 - 2026",
-        descripcion: "Specialization in client (JS, React) and server (Node.js, PHP, MySQL) environments. Emphasis on agile methodologies and relational databases.",
+        descripcion: "Comprehensive training in the development, implementation, and maintenance of web applications. Learning <b>object-oriented programming with Java</b> and relational database design (<b>MySQL</b>). Mastery of frontend development, creating modern interfaces with <b>HTML, CSS, JavaScript, and frameworks like Vue, React, Bootstrap, and Tailwind CSS</b>. On the backend, development of APIs and robust server logic using <b>PHP and Laravel</b>. Experience in application deployment and agile methodologies.",
       },
       {
         titulo: "Intermediate Technician in Microcomputer Systems and Networks",
         institucion: "I.E.S. Villa de Mazo",
         periodo: "2020 - 2022",
-        descripcion: "Training in installation, configuration, and maintenance of computer systems and networks. Basic knowledge of programming and systems administration.",
+        descripcion: "Specialized technical training in the installation, configuration, and maintenance of microcomputer systems, standalone or networked. Acquisition of skills in <b>operating systems administration (Windows and Linux)</b>, <b>local network</b> management, hardware assembly, and troubleshooting. Implementation of <b>cybersecurity</b> protocols and network services configuration, establishing a solid foundation for IT infrastructure incident resolution.",
       },
+    ],
+
+    habilidades: [
+      {
+        categoria: "Frontend",
+        items: "HTML5, CSS3, JavaScript (ES6+), React, Vue.js, Tailwind CSS, Bootstrap"
+      },
+      {
+        categoria: "Backend & Database",
+        items: "PHP, Laravel, Java, MySQL, REST APIs"
+      },
+      {
+        categoria: "Mobile Development",
+        items: "Flutter, Dart, Riverpod"
+      },
+      {
+        categoria: "Systems & Tools",
+        items: "Linux, LAN/WAN Networks, Git/GitHub, Firebase, N8N (Automation)"
+      },
+      {
+        categoria: "Languages",
+        items: `<img src="https://flagcdn.com/w20/es.png" alt="ES" class="inline-block w-5 h-auto mr-1 -mt-1 rounded-sm"> Spanish (Native) <span class="mx-2 text-slate-600">|</span> <img src="https://flagcdn.com/w20/us.png" alt="US" class="inline-block w-5 h-auto mr-1 -mt-1 rounded-sm"> English (B2 Certified)`
+      }
     ],
 
     experienciaLaboral: [
       {
-        puesto: "Waiter",
-        empresa: "Restaurante Mi Rincón - Spain",
-        periodo: "June 2019 - September 2022",
-        descripcion: "Customer service, order taking, and room service. Development of interpersonal skills and teamwork in a dynamic environment.",
-      },
-      {
         puesto: "Web Development Intern",
         empresa: "Fiordland Travels - Spain",
         periodo: "March 2024 - June 2024",
-        descripcion: "Support in creating automation systems with N8N and chatbots to improve customer service.",
+        descripcion: "Development and maintenance of automation systems using N8N, integrating conversational chatbots that optimized response times. Close collaboration with the team to identify bottlenecks and apply technological solutions that significantly improved the final customer's experience and service.",
       },
       {
-        puesto: "Web Development Intern",
+        puesto: "Mobile Development Intern",
         empresa: "Bucares S.A - France",
         periodo: "February 2026 - June 2026",
-        descripcion: "Development of a mobile application using Flutter and Dart, calling geolocation and map APIs to show points of interest, using Firebase and deploying it to app stores.",
+        descripcion: "Comprehensive development of the 'Dealheure' mobile app (cross-platform iOS and Android) from scratch using the Flutter framework and Dart, applying Riverpod for state management. Implementation of advanced geolocation features, location permission handling, and Google Maps through API consumption to show points of interest. Backend and database management with Firebase, culminating in the successful packaging and deployment to official app stores.",
       },
     ],
 
@@ -229,12 +263,13 @@ const misDatos = {
     ubicacion: "La Palma, Espagne",
     linkedin: "ali-hurtado-a5a32a1b7",
     github: "AliHurtado01",
-    cvUrl: "./docs/cv.pdf",
+    cvUrl: "./docs/CV Ali Hurtado English.pdf",
 
     tabsLabels: {
       acercaDe: "👨‍💻 À propos de moi",
       experienciaLaboral: "🚀 Expérience",
       estudios: "🎓 Études",
+      habilidades: "⚡ Compétences",
       proyectos: "💻 Projets"
     },
 
@@ -242,41 +277,58 @@ const misDatos = {
     <br><br>
     Ce qui me différencie, c'est mon profil hybride : je possède également de <b>vastes connaissances en systèmes informatiques et réseaux</b>, avec la capacité de déployer et d'administrer des environnements physiques et virtuels en participant activement à la résolution de tout type de problème pouvant survenir.
     <br><br>
-    Je me considère comme une personne <b>proactive</b> : si je ne sais pas comment faire quelque chose, je fais des recherches jusqu'à ce que je trouve la solution, en m'engageant à 100 % dans l'objectif du projet. Je possède un niveau certifié d'<b>anglais B1</b> en plus de ma langue maternelle, l'espagnol.`,
+    Je me considère comme une personne <b>proactive</b> : si je ne sais pas comment faire quelque chose, je fais des recherches jusqu'à ce que je trouve la solution, en m'engageant à 100 % dans l'objectif du projet. Je possède un <b>niveau certifié d'anglais B2</b> en plus de ma langue maternelle, l'espagnol.`,
 
     estudios: [
       {
         titulo: "Technicien Supérieur en Développement d'Applications Web",
         institucion: "I.E.S. José María Pérez Pulido",
         periodo: "2023 - 2026",
-        descripcion: "Spécialisation dans les environnements client (JS, React) et serveur (Node.js, PHP, MySQL). Accent sur les méthodologies agiles et les bases de données relationnelles.",
+        descripcion: "Formation exhaustive au développement, à l'implantation et à la maintenance d'applications web. Apprentissage de la <b>programmation orientée objet avec Java</b> et de la conception de bases de données relationnelles (<b>MySQL</b>). Maîtrise du développement frontend en créant des interfaces modernes avec <b>HTML, CSS, JavaScript et des frameworks comme Vue, React, Bootstrap et Tailwind CSS</b>. Côté backend, développement d'API et d'une logique serveur robuste à l'aide de <b>PHP et Laravel</b>. Expérience dans le déploiement d'applications et l'utilisation de méthodologies agiles.",
       },
       {
         titulo: "Technicien Intermédiaire en Systèmes Micro-informatiques et Réseaux",
         institucion: "I.E.S. Villa de Mazo",
         periodo: "2020 - 2022",
-        descripcion: "Formation en installation, configuration et maintenance de systèmes informatiques et de réseaux. Connaissances de base en programmation et administration de systèmes.",
+        descripcion: "Formation technique spécialisée dans l'installation, la configuration et la maintenance de systèmes micro-informatiques, isolés ou en réseau. Acquisition de compétences dans l'administration de <b>systèmes d'exploitation (Windows et Linux)</b>, la gestion de <b>réseaux locaux</b>, le montage de matériel et le diagnostic de pannes. Mise en œuvre de protocoles de <b>sécurité informatique</b> et configuration de services réseau, établissant une base solide pour la résolution d'incidents d'infrastructure informatique.",
       },
+    ],
+
+    habilidades: [
+      {
+        categoria: "Frontend",
+        items: "HTML5, CSS3, JavaScript (ES6+), React, Vue.js, Tailwind CSS, Bootstrap"
+      },
+      {
+        categoria: "Backend & Base de données",
+        items: "PHP, Laravel, Java, MySQL, API REST"
+      },
+      {
+        categoria: "Développement Mobile",
+        items: "Flutter, Dart, Riverpod"
+      },
+      {
+        categoria: "Systèmes et Outils",
+        items: "Linux, Réseaux LAN/WAN, Git/GitHub, Firebase, N8N (Automatisation)"
+      },
+      {
+        categoria: "Langues",
+        items: `<img src="https://flagcdn.com/w20/es.png" alt="ES" class="inline-block w-5 h-auto mr-1 -mt-1 rounded-sm"> Espagnol (Natif) <span class="mx-2 text-slate-600">|</span> <img src="https://flagcdn.com/w20/us.png" alt="US" class="inline-block w-5 h-auto mr-1 -mt-1 rounded-sm"> Anglais (B2 Certifié)`
+      }
     ],
 
     experienciaLaboral: [
       {
-        puesto: "Serveur",
-        empresa: "Restaurante Mi Rincón - Espagne",
-        periodo: "Juin 2019 - Septembre 2022",
-        descripcion: "Service client, prise de commandes et service en salle. Développement de compétences interpersonnelles et travail en équipe dans un environnement dynamique.",
-      },
-      {
         puesto: "Stagiaire en Développement Web",
         empresa: "Fiordland Travels - Espagne",
         periodo: "Mars 2024 - Juin 2024",
-        descripcion: "Soutien à la création de systèmes d'automatisation avec N8N et de chatbots pour améliorer le service client.",
+        descripcion: "Développement et maintenance de systèmes d'automatisation à l'aide de N8N, en intégrant des chatbots conversationnels qui ont optimisé les temps de réponse. Collaboration étroite avec l'équipe pour identifier les goulots d'étranglement et appliquer des solutions technologiques qui ont considérablement amélioré l'expérience et le service client final.",
       },
       {
-        puesto: "Stagiaire en Développement Web",
+        puesto: "Stagiaire en Développement Mobile",
         empresa: "Bucares S.A - France",
         periodo: "Février 2026 - Juin 2026",
-        descripcion: "Développement d'une application mobile utilisant Flutter et Dart, appel d'API de géolocalisation et de cartes pour afficher des points d'intérêt, utilisation de Firebase et déploiement sur les magasins d'applications.",
+        descripcion: "Développement complet de l'application mobile 'Dealheure' (multiplateforme iOS et Android) à partir de zéro en utilisant le framework Flutter et Dart, en appliquant Riverpod pour la gestion de l'état. Implémentation de fonctions avancées de géolocalisation, gestion des autorisations de localisation et Google Maps grâce à l'utilisation d'API pour afficher des points d'intérêt. Gestion du backend et des bases de données avec Firebase, aboutissant au conditionnement et au déploiement réussis sur les boutiques d'applications officielles.",
       },
     ],
 
@@ -337,12 +389,13 @@ const misDatos = {
     ubicacion: "La Palma, Spanien",
     linkedin: "ali-hurtado-a5a32a1b7",
     github: "AliHurtado01",
-    cvUrl: "./docs/cv.pdf",
+    cvUrl: "./docs/CV Ali Hurtado English.pdf",
 
     tabsLabels: {
       acercaDe: "👨‍💻 Über mich",
       experienciaLaboral: "🚀 Erfahrung",
       estudios: "🎓 Ausbildung",
+      habilidades: "⚡ Fähigkeiten",
       proyectos: "💻 Projekte"
     },
 
@@ -350,41 +403,58 @@ const misDatos = {
     <br><br>
     Was mich unterscheidet, ist mein hybrides Profil: Ich verfüge außerdem über <b>umfangreiche Kenntnisse in Computersystemen und Netzwerken</b> und kann physische und virtuelle Umgebungen bereitstellen und verwalten, wobei ich mich aktiv an der Lösung aller auftretenden Probleme beteilige.
     <br><br>
-    Ich betrachte mich als eine <b>proaktive</b> Person: Wenn ich nicht weiß, wie man etwas macht, recherchiere ich, bis ich es löse, und engagiere mich zu 100 % für das Projektziel. Neben meiner Muttersprache Spanisch verfüge ich über ein zertifiziertes <b>B1-Niveau in Englisch</b>.`,
+    Ich betrachte mich als eine <b>proaktive</b> Person: Wenn ich nicht weiß, wie man etwas macht, recherchiere ich, bis ich es löse, und engagiere mich zu 100 % für das Projektziel. Neben meiner Muttersprache Spanisch verfüge ich über ein <b>zertifiziertes B2-Niveau in Englisch</b>.`,
 
     estudios: [
       {
         titulo: "Höherer Techniker für Webanwendungsentwicklung",
         institucion: "I.E.S. José María Pérez Pulido",
         periodo: "2023 - 2026",
-        descripcion: "Spezialisierung auf Client- (JS, React) und Serverumgebungen (Node.js, PHP, MySQL). Schwerpunkt auf agilen Methoden und relationalen Datenbanken.",
+        descripcion: "Umfassende Ausbildung in der Entwicklung, Implementierung und Wartung von Webanwendungen. Erlernen der <b>objektorientierten Programmierung mit Java</b> und des Entwurfs relationaler Datenbanken (<b>MySQL</b>). Beherrschung der Frontend-Entwicklung durch die Erstellung moderner Schnittstellen mit <b>HTML, CSS, JavaScript und Frameworks wie Vue, React, Bootstrap und Tailwind CSS</b>. Im Backend Entwicklung von APIs und robuster Serverlogik mit <b>PHP und Laravel</b>. Erfahrung in der Bereitstellung von Anwendungen und agilen Methoden.",
       },
       {
         titulo: "Mittlerer Techniker für Mikrocomputersysteme und Netzwerke",
         institucion: "I.E.S. Villa de Mazo",
         periodo: "2020 - 2022",
-        descripcion: "Ausbildung in Installation, Konfiguration und Wartung von Computersystemen und Netzwerken. Grundkenntnisse in Programmierung und Systemadministration.",
+        descripcion: "Spezialisierte technische Ausbildung in der Installation, Konfiguration und Wartung von Mikrocomputersystemen, isoliert oder im Netzwerk. Erwerb von Fähigkeiten in der Verwaltung von <b>Betriebssystemen (Windows und Linux)</b>, <b>lokalem Netzwerkmanagement</b>, Hardwaremontage und Fehlerdiagnose. Implementierung von <b>IT-Sicherheitsprotokollen</b> und Konfiguration von Netzwerkdiensten, wodurch eine solide Grundlage für die Lösung von Vorfällen in IT-Infrastrukturen geschaffen wird.",
       },
+    ],
+
+    habilidades: [
+      {
+        categoria: "Frontend",
+        items: "HTML5, CSS3, JavaScript (ES6+), React, Vue.js, Tailwind CSS, Bootstrap"
+      },
+      {
+        categoria: "Backend & Datenbank",
+        items: "PHP, Laravel, Java, MySQL, REST APIs"
+      },
+      {
+        categoria: "Mobile Entwicklung",
+        items: "Flutter, Dart, Riverpod"
+      },
+      {
+        categoria: "Systeme & Werkzeuge",
+        items: "Linux, LAN/WAN-Netzwerke, Git/GitHub, Firebase, N8N (Automatisierung)"
+      },
+      {
+        categoria: "Sprachen",
+        items: `<img src="https://flagcdn.com/w20/es.png" alt="ES" class="inline-block w-5 h-auto mr-1 -mt-1 rounded-sm"> Spanisch (Muttersprache) <span class="mx-2 text-slate-600">|</span> <img src="https://flagcdn.com/w20/us.png" alt="US" class="inline-block w-5 h-auto mr-1 -mt-1 rounded-sm"> Englisch (B2 Zertifiziert)`
+      }
     ],
 
     experienciaLaboral: [
       {
-        puesto: "Kellner",
-        empresa: "Restaurante Mi Rincón - Spanien",
-        periodo: "Juni 2019 - September 2022",
-        descripcion: "Kundenservice, Bestellannahme und Service. Entwicklung von zwischenmenschlichen Fähigkeiten und Teamarbeit in einem dynamischen Umfeld.",
-      },
-      {
         puesto: "Webentwicklungs-Praktikant",
         empresa: "Fiordland Travels - Spanien",
         periodo: "März 2024 - Juni 2024",
-        descripcion: "Unterstützung bei der Erstellung von Automatisierungssystemen mit N8N und Chatbots zur Verbesserung des Kundenservice.",
+        descripcion: "Entwicklung und Wartung von Automatisierungssystemen mit N8N, Integration von konversationellen Chatbots, die die Reaktionszeiten optimierten. Enge Zusammenarbeit mit dem Team, um Engpässe zu identifizieren und technologische Lösungen anzuwenden, die das Erlebnis und den Service für den Endkunden deutlich verbesserten.",
       },
       {
-        puesto: "Webentwicklungs-Praktikant",
+        puesto: "Mobile-Entwicklungs-Praktikant",
         empresa: "Bucares S.A - Frankreich",
         periodo: "Februar 2026 - Juni 2026",
-        descripcion: "Entwicklung einer mobilen Anwendung mit Flutter und Dart, Aufruf von Geolokalisierungs- und Karten-APIs zur Anzeige von Sehenswürdigkeiten, Nutzung von Firebase und Bereitstellung in App-Stores.",
+        descripcion: "Umfassende Entwicklung der mobilen App 'Dealheure' (plattformübergreifend für iOS und Android) von Grund auf mit dem Flutter-Framework und Dart, unter Anwendung von Riverpod für das State Management. Implementierung erweiterter Geolokalisierungsfunktionen, Handhabung von Standortberechtigungen und Google Maps durch API-Nutzung, um Sehenswürdigkeiten anzuzeigen. Backend- und Datenbankverwaltung mit Firebase, gipfelnd in der erfolgreichen Paketierung und Bereitstellung in den offiziellen App Stores.",
       },
     ],
 
