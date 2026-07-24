@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const tabsConfig = [
             { key: "acercaDe", label: labels.acercaDe },
             { key: "experienciaLaboral", label: labels.experienciaLaboral },
-            { key: "habilidades", label: labels.habilidades }, 
+            { key: "habilidades", label: labels.habilidades },
             { key: "estudios", label: labels.estudios },
             { key: "proyectos", label: labels.proyectos },
         ];
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 return `
             <button
                 data-tab="${tab.key}"
-                class="tab-btn py-2 px-4 rounded-lg font-medium transition-all duration-300 text-sm md:text-base whitespace-nowrap flex-shrink-0 ${isActive ? activeClass : inactiveClass}"
+                class="tab-btn py-2 px-4 rounded-lg font-medium transition-all duration-300 text-sm md:text-base whitespace-nowrap ${isActive ? activeClass : inactiveClass}"
             >
                 ${tab.label}
             </button>
