@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="flex justify-center gap-4 py-4">
                     <a href="https://linkedin.com/in/${data.linkedin}" target="_blank" class="p-2 rounded-lg bg-stone-700 text-stone-400 hover:bg-tech-accent hover:text-white transition shadow-lg"> LinkedIn
                     </a>
-                    <a href="https://github.com/${data.github}" target="_blank" class="p-2 rounded-lg bg-stone-700 text-stone-400 hover:bg-tech-cyan hover:text-white transition shadow-lg"> GitHub
+                    <a href="https://github.com/${data.github}" target="_blank" class="p-2 rounded-lg bg-stone-700 text-stone-400 hover:bg-tech-accent hover:text-white transition shadow-lg"> GitHub
                     </a>
                 </div>
             </div>
